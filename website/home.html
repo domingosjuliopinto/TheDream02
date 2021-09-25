@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Dream 02</title>
+    <link rel="stylesheet" href="../static/css/headstyle.css">
+    <link rel="shortcut icon" href="../static/pics/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../static/css/home.css">  
+</head>
+<body style="background-color: dodgerblue;">
+    <div class="hheaddiv">
+        <div class="logo">
+            <img src="../static/pics/logo.jpeg" alt="The Dream 02 Logo">
+        </div>
+        <div class="acad-title">
+            <h1>The Dream 02 Sports Academy</h1>
+            <h3>Virtus in Ardius</h3>
+        </div>
+    </div>
+    <div class="hpages">
+        <button><a href="\">Home</a></button>
+        <button><a href="\gallery">Gallery</a></button>
+        <button><a href="\about">About Us</a></button>
+        <button><a href="\contact">Contact</a></button>
+    </div>
+      <!-- Slideshow container -->
+    <div class="slideshow-container">
+      <a href="/gallery">
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 4</div>
+        <img src="../static/pics/U12 Boys- winners of Kobe memorial cup.jpg">
+        <div class="text" style="color: black;">Coached U12 Boys- winners of Kobe memorial cup</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 4</div>
+        <img src="../static/pics/football.jpeg">
+        <div class="text">Football Coaching</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 4</div>
+        <img src="../static/pics/cropped fitness-training.jpg">
+        <div class="text">Fitness Training</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 4</div>
+        <img src="../static/pics/Coaching for Virtual Sessions across globe (USA).png">
+        <div class="text">Virtual Class</div>
+      </div>
+      </a>
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+
+    <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+      }  
+    </script>
+    <div class="mid">
+      <div class="right">
+        <p>We, The Dream 02 Sports Academy, offer training in basketball, football and fitness. 
+          We have certified coaches that give the training. Every session is a fun-filled session
+          where we help you to achieve your dream<br>
+          To know more <a href="/contact">contact us</a>
+        </p>
+      </div>
+      <div class="left">
+        <h3>Mission</h3>
+        <p>
+          To reach out to as many who are aspirants to train.....<a href="/about">read more</a>
+        </p>
+      </div>
+      <div class="left">
+        <h3>Vision</h3>
+        <p>
+          The Dream 02 has a vision of growth in physical, social and.....<a href="/about">read more</a>
+        </p>
+      </div>
+    </div>
+    <footer>
+      <p>This website belongs to The Dream 02 Sports Academy. Designed by domingosjuliopinto@gmail.com </p>
+    </footer>
+</body>
+</html>
