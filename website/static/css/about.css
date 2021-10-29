@@ -46,7 +46,7 @@
     display: inline-block;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 538px) {
     .mission{
         font-size: 1.3vw;
         height: auto;

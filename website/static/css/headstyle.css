@@ -163,7 +163,7 @@ footer p{
 }
 
 /*other page header*/
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 538px) {
     .oheaddiv .logo img{
         float: left;
         height: 8vw;
