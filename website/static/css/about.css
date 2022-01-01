@@ -46,6 +46,37 @@
     display: inline-block;
 }
 
+.brochure{
+    text-align: center;
+    background-color: yellow;
+    font-size: 4.17vw;
+}
+
+.midvid{
+    text-align: center;
+}
+
+.midvid video{
+    max-width: 47%; 
+    max-height: 47%; 
+    padding: 1vw;
+}
+
+.brochure iframe{
+    width: 60%;
+    height: 80vw;
+}
+
+.poster{
+    text-align: center;
+    background-color: turquoise;
+}
+
+.poster img{
+    max-width: 60%;
+    padding: 1vw;
+}
+
 @media screen and (min-width: 538px) {
     .mission{
         font-size: 1.3vw;
@@ -66,5 +97,20 @@
     .auvid video{
         max-height: 25.6vw;
         padding-right: 0.2vw;
+    }
+
+    .brochure{
+        font-size: 1.3vw;
+        width: 50%;
+        transform: translateX(50%);
+    }
+
+    .brochure iframe{
+        width: 80%;
+        height: 40vw;
+    }
+
+    .poster img{
+        max-width: 30%;
     }
 }
