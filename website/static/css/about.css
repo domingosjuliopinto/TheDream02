@@ -70,6 +70,7 @@
 .poster{
     text-align: center;
     background-color: turquoise;
+    font-size: 4.17vw;
 }
 
 .poster img{
@@ -108,6 +109,10 @@
     .brochure iframe{
         width: 80%;
         height: 40vw;
+    }
+
+    .poster {
+        font-size: 1.3vw;
     }
 
     .poster img{
