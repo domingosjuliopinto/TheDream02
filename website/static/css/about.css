@@ -57,8 +57,8 @@
 }
 
 .midvid video{
-    max-width: 47%; 
-    max-height: 47%; 
+    max-width: 60%; 
+    max-height: 60%; 
     padding: 1vw;
 }
 
@@ -98,6 +98,11 @@
     .auvid video{
         max-height: 25.6vw;
         padding-right: 0.2vw;
+    }
+
+    .midvid video{
+        max-width: 47%; 
+        max-height: 47%; 
     }
 
     .brochure{
