@@ -11,3 +11,6 @@ This website is hosted using netlify<br>
 ![](ui-ux/galleryv2.png)
 ![](ui-ux/aboutv2.png)
 ![](ui-ux/contactv2.png)
+
+## Reference
+<a href="https://www.w3schools.com/howto/howto_js_slideshow.asp">Slideshow / Carousel</a>
