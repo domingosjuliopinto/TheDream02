@@ -7,8 +7,8 @@ This website is hosted using netlify<br>
 <a href="https://thedream02.netlify.app">https://thedream02.netlify.app</a>
 
 ## Images
-![](ui-ux/homev2.png)
-![](ui-ux/galleryv2.png)
+![](ui-ux/homev2.PNG)
+![](ui-ux/galleryv2.PNG)
 ![](ui-ux/aboutv2.png)
 ![](ui-ux/contactv2.png)
 
