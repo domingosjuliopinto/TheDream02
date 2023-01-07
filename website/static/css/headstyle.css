@@ -36,7 +36,6 @@
 }
 
 .hpages button{
-    border:0;
     background: turquoise;
     margin: 20px auto;
     text-align: center;
@@ -129,32 +128,10 @@ footer p{
 
     .hheaddiv .acad-title h1{
         font-size: 5vw;
-        font-family: Arial, Helvetica, sans-serif;
-        color: white;
-        -webkit-text-stroke-width: 1px;
-        -webkit-text-stroke-color: black;
-    }
-
-    .hheaddiv .acad-title h3{
-        font-size: 3vw;
-        font-family: Arial, Helvetica, sans-serif;
-        color: white;
-        -webkit-text-stroke-width: 0.1px;
-        -webkit-text-stroke-color: black;
     }
 
     .hpages button{
-        border:0;
-        background: turquoise;
-        margin: 20px auto;
-        text-align: center;
-        border: 2px solid yellow;
         padding: 0.5vw 3vw;
-        outline: none;
-        color: white;
-        border-radius: 24px;
-        transition: 0.25s;
-        cursor: pointer;
         font-size: 3vw;
     }
 }
