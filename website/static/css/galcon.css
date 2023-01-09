@@ -3,15 +3,21 @@
 /*contact*/
 /*customised for phones*/
 .contact{
-    background-color: yellow;
+    background-color: white;
     opacity: 0.9;
-    width: 50vw;
+    border-radius: 20px;
 }
 
 .contact h3{
     text-align: center;
     font-size: 3vw;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.contitleh2 h2{
+    color: white;
+    font-size: 4.5vw;
+    text-align: center;
 }
 
 /*Basketball and Fitness pics and vids*/
@@ -75,19 +81,17 @@ video{
 
 /*For bigger screen*/
 /*contact*/
-@media screen and (min-width: 480px) {
-    .contact{
-        background-color: yellow;
-        opacity: 0.9;
-        width: 40vw;
-    }
-    
+@media screen and (min-width: 1000px) {   
     .contact h3{
-        text-align: center;
         font-size: 2vw;
-        font-family: Arial, Helvetica, sans-serif;
     }
 
+    .contitleh2 h2{
+        font-size: 2.7vw;
+    }
+}
+
+@media screen and (min-width: 480px) {
     .gallchoice button{
         border:0;
         background: turquoise;
