@@ -79,6 +79,12 @@ video{
     background: orange;
 }
 
+.midvid video{
+    max-width: 60%; 
+    max-height: 60%; 
+    padding: 1vw;
+}
+
 /*For bigger screen*/
 /*contact*/
 @media screen and (min-width: 1000px) {   
