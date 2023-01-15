@@ -7,9 +7,13 @@ This website is hosted using netlify<br>
 <a href="https://thedream02.netlify.app">https://thedream02.netlify.app</a>
 
 ## Images
-![](ui-ux/homev2galleryv2.jpg)
-![](ui-ux/aboutv2.png)
-![](ui-ux/contactv2.png)
+![](ui-ux/ss-home.jpg)
+![](ui-ux/ss-gallery.jpg)
+![](ui-ux/ss-contact.jpg)
+
+## Notes
+Background picture 1 taken from a <a href="https://www.pexels.com/photo/blue-marble-4709428/">photo by Karolina Grabowska from Pexels</a><br>
+Background picture 2 taken from a <a href="https://www.pexels.com/photo/pavement-2117938/">photo by Scott Webb from Pexels</a>
 
 ## Reference
 <a href="https://www.w3schools.com/howto/howto_js_slideshow.asp">Slideshow / Carousel</a>
