@@ -62,7 +62,6 @@ video{
 }
 
 .gallchoice button{
-    border:0;
     background: turquoise;
     text-align: center;
     border: 2px solid yellow;
@@ -99,17 +98,8 @@ video{
 
 @media screen and (min-width: 480px) {
     .gallchoice button{
-        border:0;
-        background: turquoise;
         margin: 20px auto;
-        text-align: center;
-        border: 2px solid yellow;
         padding: 1vw 2vw;
-        outline: none;
-        color: white;
-        border-radius: 2px;
-        transition: 0.25s;
-        cursor: pointer;
         font-size: 2vw;
     }
 }

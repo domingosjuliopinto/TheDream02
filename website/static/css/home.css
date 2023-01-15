@@ -15,33 +15,6 @@
     height: 53vw;
   }
 
-  .mid{
-    background-color: yellow;
-    text-align: center;
-  }
-
-  .left{
-    background-color: orange;
-    width: 48%;
-  }
-
-  .left p{
-    padding-bottom: 1vw;
-    font-size: 3vw;
-  }
-
-  .left h3{
-    padding-top: 1vw;
-    font-size: 3vw;
-  }
-
-  .right{
-    width: 50%;
-    float: right;
-    padding: 1vw;
-    font-size: 3vw;
-  }
-
    /* Caption text */
    .text {
     color: #f2f2f2;
@@ -53,27 +26,84 @@
     text-align: center;
   }
 
+  .aboutus{
+    background: turquoise;
+    color: #030303;
+    text-align: center;
+    border: 2px solid yellow;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin: 10px;
+    border-radius: 10px;
+  }
+
+  .left{
+    background-color: orange;
+    padding: 1%;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .mid{
+    background-color: yellow;
+    padding: 1%;
+    text-align: center;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .right{
+    background-color: orange;
+    padding: 1%;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .end-link{
+    padding: 5px;
+    text-align: center;
+    font-size: xx-large;
+  }
+
+  .end-link a:link {
+    color: dodgerblue;
+  }
+  
+  /* visited link */
+  .end-link a:visited {
+    color: turquoise;
+  }
+
   /*For bigger screen*/
   /*contact*/
-  @media screen and (min-width: 1500px) {
+  @media screen and (min-width: 1000px) {
     .fade img{
       width:100%; 
       height: 37vw;
     }
 
-    .right{
-      font-size: 1.5vw;
-    }
-
-    .left p{
-      font-size: 1.2vw;
-    }
-
-    .left h3{
-      font-size: 1.2vw;
-    }
     .text {
       font-size: 1vw;
+    }
+
+    .aboutus{
+      font-size: 20px;
+    }
+
+    .left{
+      width: 31.3%;
+    }
+
+    .mid{
+      width: 31.3%;
+    }
+
+    .right{
+      width: 31.3%;
     }
   }
   

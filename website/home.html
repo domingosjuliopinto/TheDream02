@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./static/css/headstyle.css">
     <link rel="shortcut icon" href="./static/pics/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./static/css/home.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
 </head>
 <body style="background-color: dodgerblue;">
     <div class="hheaddiv">
@@ -19,10 +20,11 @@
             <h3>Virtus in Ardius</h3>
         </div>
     </div>
+    <div style="background-image: url(./static/bg/bgblue.jpg);">
     <div class="hpages">
         <button><a href="\">Home</a></button>
         <button><a href="./pages/gallery.html">Gallery</a></button>
-        <button><a href="./pages/about.html">About Us</a></button>
+        <button><a href="#about-us">About Us</a></button>
         <button><a href="./pages/contact.html">Contact</a></button>
     </div>
       <!-- Slideshow container -->
@@ -119,31 +121,46 @@
         setTimeout(showSlides, 7000); // Changes image every 7 seconds
       }
     </script>
-    <div class="mid">
-      <div class="right">
-        <p>We, The Dream 02 Sports Academy, offer training in basketball, football and fitness. 
+    </div><div style="background-image: url(./static/bg/bgblack.jpg);" id="about-us">
+    <div class="hpages">
+        <button>About Us</button>
+    </div>
+    <div class="aboutus">
+      <p><b>
+        The Dream 02 was established on 6th June, 2021 with an 
+        purpose to help everyone from ranging young athletes 
+        to dedicated veterans to achieve their dreams.<br>
+        <p>We are committed to Purpose, Impossible to I'm possible, Vision and Mission.</p>
+      </b></p>
+    </div>
+    <div style="display: flex;flex-wrap: wrap;">
+      <div class="left">
+        <h2>Mission</h2>
+        <h3><b>
+          To reach out to as many who are aspirants
+          to train for the dream and make all things
+          possible by the way and methodology of our training
+        </b></h3>
+      </div>
+      <div class="mid">
+        <h3>We, The Dream 02 Sports Academy, offer training in basketball, football and fitness. 
           We have certified coaches that give the training. Every session is a fun-filled session
           where we help you to achieve your dream<br>
-          To know more <a href="./pages/contact.html">contact us</a>
-        </p>
+          To know more <a href="./pages/contact.html">contact us</a></h3>
       </div>
-      <div class="left">
-        <h3>Mission</h3>
-        <p>
-          To reach out to as many who are aspirants to train.....<a href="./pages/about.html">read more</a>
-        </p>
+      <div class="right">
+        <h2>Vision</h2>
+        <h3><b>
+          The Dream 02 has a vision of growth in physical, social 
+          and educational aspects not just in sports but also as 
+          the best version of the athlete in their daily lives
+        </b></h3>
       </div>
-      <div class="left">
-        <h3>Vision</h3>
-        <p>
-          The Dream 02 has a vision of growth in physical, social and.....<a href="./pages/about.html">read more</a>
-        </p>
       </div>
-    </div>
-    <h3 style="text-align: center;color: white;">Instagram - <a href="https://www.instagram.com/_thedream02/">_thedream02</a></h3>
-    <div style="text-align: center;">
-      <img src="./static/pics/thedream02-businesscard.jpg" width="50%" style="border: 5px solid yellow;">
-    </div>
+      <div class="end-link">
+        <a href="https://www.instagram.com/_thedream02/"><i class="fab fa-instagram"></i></a>
+      </div>
+  </div>
     <footer>
       <p>This website belongs to The Dream 02 Sports Academy.</p>
     </footer>
