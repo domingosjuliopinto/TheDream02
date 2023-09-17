@@ -15,29 +15,27 @@
 }
 
 .contitleh2 h2{
-    color: white;
     font-size: 4.5vw;
     text-align: center;
 }
 
 /*Basketball and Fitness pics and vids*/
 .basketgall{
-    background-color: yellow;
+    background-color: #1e90ff;
     border: 1px solid turquoise;
-    opacity: 0.9;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .basketgall h2{
     font-size: 2vw;
+    color: white;
 }
 
 /*Football pics and vids*/
 .footgall{
     background-color: turquoise;
-    border: 1px solid yellow;
-    opacity: 0.9;
+    border: 1px solid #1e90ff;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -64,7 +62,7 @@ video{
 .gallchoice button{
     background: turquoise;
     text-align: center;
-    border: 2px solid yellow;
+    border: 2px solid #1e90ff;
     padding: 1vw 3vw;
     outline: none;
     color: white;
@@ -75,7 +73,7 @@ video{
 }
 
 .gallchoice button:hover{
-    background: orange;
+    background: #1e90ff;
 }
 
 /*For bigger screen*/

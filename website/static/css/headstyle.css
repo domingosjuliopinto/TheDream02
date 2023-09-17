@@ -3,7 +3,7 @@
 .hheaddiv{
     height: auto;
     width:auto;
-    background-color: orange;
+    background-color: #1e90ff;
     text-align: center;
     padding: 1%;
     position: static;
@@ -39,7 +39,7 @@
     background: turquoise;
     margin: 20px auto;
     text-align: center;
-    border: 2px solid yellow;
+    border: 2px solid #1e90ff;
     padding: 3vw 5vw;
     outline: none;
     color: white;
@@ -50,14 +50,14 @@
 }
 
 .hpages button:hover{
-    background: orange;
+    background: #1e90ff;
 }
 
 /*other page header*/
 .oheaddiv{
     height: auto;
     width:auto;
-    background-color: orange;
+    background-color: #1e90ff;
     text-align: center;
     padding: 1%;
     position: static;
@@ -90,7 +90,7 @@
 .opages button{
     background: turquoise;
     text-align: center;
-    border: 2px solid yellow;
+    border: 2px solid #1e90ff;
     padding: 1vw 3vw;
     outline: none;
     color: white;
@@ -101,7 +101,7 @@
 }
 
 .opages button:hover{
-    background: orange;
+    background: #1e90ff;
 }
 
 /*Footer*/
