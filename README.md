@@ -13,3 +13,4 @@ This website is hosted using netlify<br>
 
 ## Reference
 <a href="https://www.w3schools.com/howto/howto_js_slideshow.asp">Slideshow / Carousel</a>
+<a href="https://youtu.be/hJ7Rg1821Q0?si=0rh01ecDueFmOL40">Lazy Loading</a>

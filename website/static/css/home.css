@@ -15,6 +15,16 @@
     height: 53vw;
   }
 
+  .blur-load{
+    height: 53vw;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .logo{
+    background-size: cover;
+  }
+
    /* Caption text */
    .text {
     color: #f2f2f2;
@@ -104,6 +114,10 @@
 
     .right{
       width: 31.3%;
+    }
+
+    .blur-load{
+      height: 37vw;
     }
   }
   
